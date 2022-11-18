@@ -11,7 +11,6 @@ const createTuit = (req, res) => {
     newTuit.replies = 0;
     newTuit.retuits = 0;
     newTuit.time = "Just now";
-
     tuits.push(newTuit);
     res.json(newTuit);
 }
